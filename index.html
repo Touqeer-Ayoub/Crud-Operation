@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Crud Operation</h1>
+    <div>
+        <center>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" name="Name" id="f"></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>F.Name :</td>
+                        <td><input type="text" nme="F.Name" id="g"></td>
+                    </tr>
+                    <td>Emp Code :</td>
+                    <td><input type="number" name="Emp Code" id="h"></td>
+                    </tr>
+                    <tr>
+                        <td>Salary :</td>
+                        <td><input type="number" name="Salary" id="i"></td>
+                    </tr>
+                    <tr>
+                        <td>City :</td>
+                        <td><input type="text" name="City" id="j"></td>
+                    </tr>
+                     <tr>
+                    <td><button onclick="crud()">Submit</button></td>
+                </tr>
+                </table>
+            </fieldset>
+        </center>
+        <table>
+
+        </table>
+    </div>
+    <script>
+        function crud(){
+        var a = ('Name');
+        var b = ('Father Name');
+        var c = ('Empcode');
+        var d = ('Salary');
+        var e = ('City');
+        console.log(localStorage.setItem(a,f));
+        console.log(localStorage.setItem(b,g));
+        console.log(localStorage.setItem(c,h));
+        console.log(localStorage.setItem(d,i));
+        console.log(localStorage.setItem(e,j));
+    }
+    </script>
+
+</body>
+
+</html>
